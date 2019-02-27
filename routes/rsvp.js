@@ -11,7 +11,7 @@ exports.adminView = function(request, response){
 
 exports.addRSVP = function(request, response){
 	// console.log(request);
-	
+
   var rsvpEmail = request.body.rsvpEmail;
 
   console.log(rsvpEmail);
@@ -21,4 +21,5 @@ exports.addRSVP = function(request, response){
   response.send(rsvpEmail);
   
 };
+
 
